@@ -1,0 +1,87 @@
+/* reset the default styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* styling for display section(body) of the web page */
+body {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  line-height: 1.6;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.829),
+      rgba(13, 13, 13, 0.582),
+      rgba(0, 0, 0, 0.706)
+    ),
+    url("../assets/img/dark-room-with-light-background_1409-1809.avif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+main {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  max-width: 400px;
+  width: 90%;
+  padding: 20px;
+  margin: 12px 0;
+  background-color: #fff;
+  z-index: 1;
+}
+/* setting the margin top and bottom of time-info, profile, goals,and links to 20 pixel  */
+.time-info,
+.profile,
+.goals,
+.links {
+  margin: 20px 0;
+}
+/* styling for current Time and Day in UTC  */
+.time-info {
+  font-size: 12px;
+  font-weight: 400;
+  text-align: right;
+}
+/* styling for the Slack Profile Picture, ID and email, My Tech goals and useful links */
+.profile {
+  font-weight: 400;
+  font-size: 14px;
+}
+.profile,
+.links {
+  text-align: center;
+}
+.goals h2,
+.links h2 {
+  font-weight: 600;
+  font-size: 18px;
+}
+.goals ul {
+  font-weight: 400;
+  font-size: 14px;
+  padding-left: 20px;
+}
+
+.links a {
+  display: block;
+  color: #007bff;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.links a:hover {
+  text-decoration: underline;
+}
+/* styling for the footer */
+footer {
+  padding: 1rem 0;
+  color: #fff;
+  font-weight: 400;
+  font-size: 12px;
+}

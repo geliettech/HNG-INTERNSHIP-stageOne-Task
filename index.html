@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- title of the website which is being displayed at the tab bar -->
+    <title>My Teach Goals</title>
+    <!-- link to external css -->
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <!-- display section(body) of the web page -->
+  <body>
+    <main>
+      <section>
+        <!-- html structure of current Time and Day in UTC -->
+        <div class="time-info">
+          <div>
+            <strong>Time:</strong>
+            <span data-testid="currentTimeUTC">Fetching...</span>
+          </div>
+          <div>
+            <strong>Day of the Week:</strong>
+            <span data-testid="currentDay">Fetching...</span>
+          </div>
+        </div>
+        <!-- profile section of the page where the Slack Profile Picture, ID and email displayed -->
+        <div class="profile">
+          <img
+            src=""
+            alt="Slack Profile Picture"
+            data-testid="slackProfilePicture"
+            width="48"
+            height="48"
+          />
+          <div>
+            <strong>Slack ID:</strong>
+            <span data-testid="slackDisplayName">Fetching...</span>
+          </div>
+          <div>
+            <strong>Slack Email:</strong>
+            <span data-testid="slackEmail">Fetching...</span>
+          </div>
+        </div>
+      </section>
+      <!-- My Tech goals for the Next 2years -->
+      <section class="goals">
+        <h2>My Tech goals for the Next 2years:</h2>
+        <ul>
+          <li>
+            Enhance proficiency in JavaScript and modern frameworks like React
+            and Vue.js
+          </li>
+          <li>
+            Contribute to open-source projects and collaborate with the
+            developer community
+          </li>
+          <li>
+            Obtain certifications in cloud computing, Software Engineering and
+            cybersecurity
+          </li>
+          <li>
+            Work on advanced real-world projects to boost my robust portfolio
+          </li>
+          <li>Learn and implement best practices in frontend development</li>
+          <li>
+            Stay updated with the latest trends and technologies in the tech
+            industry
+          </li>
+        </ul>
+      </section>
+      <!-- Links section for hng.tech/learn, keyword.dog, scrapeanyweb.site -->
+      <section class="links">
+        <h2>Useful Links</h2>
+        <a
+          data-testid="hngLink"
+          href="http://hng.tech/learn"
+          target="_blank"
+          rel="noopener noreferrer"
+          >hng.tech/learn</a
+        >
+        <a
+          data-testid="keywordLink"
+          href="http://keyword.dog/"
+          target="_blank"
+          rel="noopener noreferrer"
+          >keyword.dog</a
+        >
+        <a
+          data-testid="scrapeanywebLink"
+          href="http://scrapeanyweb.site/"
+          target="_blank"
+          rel="noopener noreferrer"
+          >scrapeanyweb.site</a
+        >
+      </section>
+    </main>
+    <!-- footer section -->
+    <footer>
+      <p>&copy;2024 Stage One Project by oge-dev</p>
+    </footer>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
