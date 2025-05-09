@@ -37,7 +37,7 @@ document.addEventListener("DOMContentLoaded", () => {
   function fetchSlackInfo() {
     // Simulated data fetch
     const slackData = {
-      displayName: "oge-dev",
+      displayName: "geliettech",
       email: "julietogechi27@gmail.com",
       profilePicture:
         "https://ca.slack-edge.com/T07466B189M-U07ARKG3PC0-499960a28945-48",
